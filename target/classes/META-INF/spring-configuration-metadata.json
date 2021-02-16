@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "ssw.rpc.client",
+      "type": "com.ssw.myRpc.config.StarterClientProperties",
+      "sourceType": "com.ssw.myRpc.config.StarterClientProperties"
+    },
+    {
+      "name": "ssw.rpc.properties",
+      "type": "com.ssw.myRpc.config.StarterProperties",
+      "sourceType": "com.ssw.myRpc.config.StarterProperties"
+    },
+    {
+      "name": "ssw.rpc.server",
+      "type": "com.ssw.myRpc.config.StarterServerProperties",
+      "sourceType": "com.ssw.myRpc.config.StarterServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ssw.rpc.client.retry-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ssw.myRpc.config.StarterClientProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "ssw.rpc.client.retry-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ssw.myRpc.config.StarterClientProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "ssw.rpc.properties.register",
+      "type": "java.lang.String",
+      "sourceType": "com.ssw.myRpc.config.StarterProperties"
+    },
+    {
+      "name": "ssw.rpc.properties.register-ip",
+      "type": "java.lang.String",
+      "sourceType": "com.ssw.myRpc.config.StarterProperties"
+    },
+    {
+      "name": "ssw.rpc.properties.register-port",
+      "type": "java.lang.String",
+      "sourceType": "com.ssw.myRpc.config.StarterProperties"
+    },
+    {
+      "name": "ssw.rpc.properties.serializer-type",
+      "type": "java.lang.String",
+      "sourceType": "com.ssw.myRpc.config.StarterProperties"
+    },
+    {
+      "name": "ssw.rpc.server.service-ip",
+      "type": "java.lang.String",
+      "sourceType": "com.ssw.myRpc.config.StarterServerProperties"
+    },
+    {
+      "name": "ssw.rpc.server.service-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ssw.myRpc.config.StarterServerProperties"
+    }
+  ],
+  "hints": []
+}
